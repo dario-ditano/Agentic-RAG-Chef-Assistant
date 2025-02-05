@@ -1,0 +1,54 @@
+# File Python compilati
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Cartelle di ambiente virtuale
+venv/
+env/
+.venv/
+.env/
+
+# File di configurazione dell'IDE
+.idea/
+.vscode/
+
+# File di log
+*.log
+logs/
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# File di configurazione o ambiente
+*.env
+.env.*
+
+# Cartelle di distribuzione
+build/
+dist/
+*.egg-info/
+
+# Cartelle di dipendenze scaricate
+pip-wheel-metadata/
+
+# Cache e file temporanei
+.tox/
+.nox/
+.coverage
+*.cover
+
+# File generati da Jupyter Notebook
+.ipynb_checkpoints/
+
+# Escludi i file JSON dei dati
+data/recipes.json
+
+# Configurazioni personalizzate Qdrant
+qdrant_data/
+
+# Cartelle per eventuali test
+tests/__pycache__/
+tests/*.pyc
