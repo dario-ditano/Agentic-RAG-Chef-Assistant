@@ -43,9 +43,6 @@ pip-wheel-metadata/
 # File generati da Jupyter Notebook
 .ipynb_checkpoints/
 
-# Escludi i file JSON dei dati
-data/recipes.json
-
 # Configurazioni personalizzate Qdrant
 qdrant_data/
 
